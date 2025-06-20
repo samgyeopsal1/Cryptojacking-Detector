@@ -23,13 +23,13 @@ python Main.py
 
 ## 사용 방법
 ### 0. env 파일 첨부
-- project2 폴더에 Clova API 키를 작성한 .env 파일을 저장합니다.
+- project2 폴더에 Clova API 키를 작성한 .env 파일을 저장합니다.                                              
 ![0단계 - 파일 첨부](screenshots/step0.png)
 
 
 ### 1. URL 입력
 - Main.py를 실행합니다.
-- 실행 시 크립토재킹 탐지할 대상 URL을 입력받습니다.
+- 크립토재킹에 대해 탐지할 대상 URL을 입력합니다.
 ![1단계 - URL 입력](screenshots/s1.png)
 
 
