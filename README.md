@@ -5,13 +5,15 @@
 
 
 >이 프로그램은 사이트 내 **크립토재킹(Cryptojacking)** 을 실행시키는 JavaScript를 탐지하여 사용자에게 결과를 반환합니다.           
->탐지 방식으로는 시그니처 탐지(입력해둔 패턴과 대조하여 탐지)와 AI를 이용한 문맥(난독화가 되어있어도 실행 구조나 방식으로 탐지) 탐지를 진행합니다.
+>탐지 방식으로는 시그니처 탐지(입력해둔 패턴과 대조하여 탐지)와 AI를 이용한 문맥 탐지를 진행합니다.
+>시그니처 탐지 : 도구 개발 시 개발자가 입력해둔 특정 키워드가 있는지를 탐색
+>AI 문맥 탐지 : 크립토재킹을 실행시키는 코드나 의심스러운 코드에 대해서 탐지함 (난독화 및 소형화 코드에 대해서도 탐지가 가능함) 
 > <br/>
 
 
 ## 설치 방법
 ```bash
-git clone https://github.com/jhs-322/project2.git
+git clone https://github.com/samgyeopsal1/Cryptojacking-Detector.git
 cd project2
 pip install -r requirements.txt
 python Main.py
