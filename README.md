@@ -13,6 +13,7 @@
 
 
 ## 설치 방법
+Git이 설치되어 있어야 합니다.
 ```bash
 git clone https://github.com/samgyeopsal1/Cryptojacking-Detector.git
 cd project2
