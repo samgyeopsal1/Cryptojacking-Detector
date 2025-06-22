@@ -54,4 +54,4 @@ python Main.py
 - AI 탐지 및 시그니처 탐지 모두 탐지된 내용이 없을 시 '안전'
 - AI 탐지 및 시그니처 탐지 둘 중 하나라도 탐지된 경우 '의심'
 - AI 탐지 및 시그니처 탐지 모두 탐지된 경우 '위험'을 출력합니다.
-- ![3단계 - 결과 출력](screenshots/s3.png)
+![step3](https://github.com/user-attachments/assets/2c9dd5cc-7248-48f6-be7f-c439e6875916)
