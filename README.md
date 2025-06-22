@@ -28,10 +28,12 @@ python Main.py
 ![0단계 - 파일 첨부](screenshots/step0.png)
 
 
+
 ### 1. URL 입력
 - Main.py를 실행합니다.
 - 크립토재킹에 대해 탐지할 대상 URL을 입력합니다.
 ![aa](https://github.com/user-attachments/assets/39bb3d4c-866d-4a63-91b8-2b9d715787f5)
+
 
 
 ### 2. 대상 URL에 대해서 크롤링 시도
@@ -40,10 +42,12 @@ python Main.py
 ![as](https://github.com/user-attachments/assets/5a511a17-c114-4c51-b736-b2131495bc48)
 
 
+
 ### 3. 크롤링한 리소스를 저장 후 탐지 진행
 - combinet.txt 파일에 대해서 AI기반 문맥 탐지 및 시그니처 탐지를 진행합니다.
 - 시그니처 탐지는 크립토재킹 의심 키워드와 combined.txt내에 있는 JavaScript와 비교하는 방식입니다.
 - AI기반 문맥 탐지는 난독화 및 소형화 된 JavaScript도 전부 탐지할 수 있습니다. 탐지 방식은 핵심 키워드의 주변 구조를 분석하여, 코드가 난독화되거나 소형화되어도 고유한 패턴을 기반으로 크립토재킹을 탐지하는 방식입니다.
+
 
 
 ### 4. 사용자에게 각 탐지 방식의 결과 반환
