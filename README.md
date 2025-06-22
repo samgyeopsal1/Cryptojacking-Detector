@@ -31,13 +31,13 @@ python Main.py
 ### 1. URL 입력
 - Main.py를 실행합니다.
 - 크립토재킹에 대해 탐지할 대상 URL을 입력합니다.
-![1단계 - URL 입력](screenshots/s1.png)
+![aa](https://github.com/user-attachments/assets/39bb3d4c-866d-4a63-91b8-2b9d715787f5)
 
 
 ### 2. 대상 URL에 대해서 크롤링 시도
 - Selenium을 이용해 대상 URL에서 로드되는 리소스에 대해서 모두 크롤링을 진행합니다.
 - 크롤링한 리소스를 정제하여 combined.txt로 저장합니다.
-![2단계 - 코드 분석](screenshots/s2.png)
+![as](https://github.com/user-attachments/assets/5a511a17-c114-4c51-b736-b2131495bc48)
 
 
 ### 3. 크롤링한 리소스를 저장 후 탐지 진행
